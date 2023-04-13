@@ -6,41 +6,41 @@ import Card from './shared/Card';
 const ProfileWrapper = styled(Card)`
   display: flex;
   align-items: center;
-  padding: 36px 39px;
+  padding: 20px;
   color: #262626;
 `;
 
 const Avatar = styled.div`
-  width: 90px;
-  height: 90px;
+  width: 45px;
+  height: 45px;
   border-radius: 50%;
   background-color: #edf2f7;
   display: flex;
   justify-content: center;
 
   > span {
-    margin-top: 11px;
-    font-size: 40px;
-    line-height: 55px;
+    margin-top: 6px;
+    font-size: 20px;
+    line-height: 28px;
     font-weight: 700;
   }
 `;
 
 const ContactWrapper = styled.div`
   flex: 1;
-  margin-left: 26px;
+  margin-left: 12px;
 `;
 
 const ProfileName = styled.p`
-  font-size: 40px;
+  font-size: 20px;
   font-weight: 600;
-  line-height: 55px;
+  line-height: 28px;
 `;
 
 const PhoneNumber = styled.p`
-  font-size: 26px;
+  font-size: 13px;
   font-weight: 500;
-  line-height: 35px;
+  line-height: 20px;
   color: #718096;
 `;
 
@@ -48,10 +48,10 @@ const LogOutBtn = styled.button`
   border: none;
   border-radius: 10px;
   background-color: #edf2f7;
-  padding: 28px 24px;
-  font-size: 26px;
+  padding: 12px;
+  font-size: 13px;
   font-weight: 600;
-  line-height: 34px;
+  line-height: 20px;
   color: #262626;
 `;
 

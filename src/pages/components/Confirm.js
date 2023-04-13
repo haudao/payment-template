@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const Label = styled.label`
   display: inline-flex;
   position: relative;
-  margin-bottom: 107px;
+  margin-bottom: 50px;
 `;
 
 const HiddenInput = styled.input`
@@ -12,11 +12,11 @@ const HiddenInput = styled.input`
 `;
 
 const Text = styled.span`
-  font-size: 26px;
+  font-size: 13px;
   font-weight: 500;
-  line-height: 35px;
+  line-height: 18px;
   color: #718096;
-  margin-left: 55px;
+  margin-left: 30px;
 
   > a {
     color: #1e21ff;
@@ -26,9 +26,9 @@ const Text = styled.span`
   &::before {
     content: '';
     position: absolute;
-    width: 30px;
-    height: 30px;
-    border: 3px solid #616161;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #616161;
     border-radius: 4px;
     left: 0;
   }

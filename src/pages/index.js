@@ -16,34 +16,34 @@ const notoSans = Noto_Sans({
 });
 
 const Container = styled.div`
-  width: 750px;
-  border: 1px solid #000000;
+  width: 100%;
+  max-width: 390px;
 `;
 
 const ContentWrapper = styled.div`
-  padding: 50px;
+  padding: 30px;
   color: #262626;
 `;
 
 const Servive = styled.h2`
-  margin: 50px 0px 40px;
-  font-size: 40px;
+  margin: 25px 0px 20px;
+  font-size: 20px;
   font-weight: 700;
-  line-height: 55px;
+  line-height: 28px;
   color: #262626;
 `;
 
 const Form = styled.form`
-  margin: 40px 0px 50px;
+  margin: 20px 0px 25px;
   > *:not(:first-child) {
-    margin-top: 40px;
+    margin-top: 20px;
   }
 `;
 
 const ChooseMethod = styled.h2`
-  font-size: 50px;
+  font-size: 25px;
   font-weight: 700;
-  line-height: 68px;
+  line-height: 30px;
 `;
 
 const PaymentTemplate = () => (

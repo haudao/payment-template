@@ -6,8 +6,8 @@ import Button from './shared/Button';
 const Wrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
-  gap: 18px;
-  margin: 50px 0px;
+  gap: 10px;
+  margin: 25px 0px;
 `;
 
 const PaymentMethods = () => (

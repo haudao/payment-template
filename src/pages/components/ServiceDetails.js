@@ -7,7 +7,7 @@ import Card from './shared/Card';
 const ServiceWrapper = styled(Card)`
   display: flex;
   align-items: center;
-  padding: 34px;
+  padding: 15px;
   color: #262626;
 `;
 
@@ -16,48 +16,43 @@ const ServiveImage = styled(Image)`
 `;
 
 const DetailsWrapper = styled.div`
-  margin-left: 24px;
+  margin-left: 12px;
 
   > *:not(:first-child) {
-    margin-top: 12px;
+    margin-top: 5px;
   }
 `;
 
 const BoldText = styled.div`
-  font-size: 30px;
+  font-size: 15px;
   font-weight: 600;
-  line-height: 40px;
+  line-height: 20px;
 `;
 
 const LightText = styled.div`
   display: flex;
   align-items: center;
-  font-size: 20px;
+  font-size: 10px;
   font-weight: 500;
-  line-height: 27px;
+  line-height: 15px;
   color: #718096;
 `;
 
 const IconImg = styled(Image)`
-  margin-right: 14px;
+  margin-right: 5px;
 `;
 
 const ServiceDetails = () => (
   <ServiceWrapper>
-    <ServiveImage
-      alt="service-img"
-      src="/service.png"
-      width={120}
-      height={120}
-    />
+    <ServiveImage alt="service-img" src="/service.png" width={60} height={60} />
     <DetailsWrapper>
       <BoldText>Japanese lessons</BoldText>
       <LightText>
         <IconImg
           alt="calendar-icon"
           src="/calendar.svg"
-          width={22}
-          height={22}
+          width={10}
+          height={10}
         />
         Nov 7, 2020 · 11:30
       </LightText>
@@ -65,8 +60,8 @@ const ServiceDetails = () => (
         <IconImg
           alt="location-icon"
           src="/location.svg"
-          width={22}
-          height={22}
+          width={10}
+          height={10}
         />
         {'Client`s place'}
       </LightText>
